@@ -1,0 +1,20 @@
+.pg img{
+    width: 50%;
+}
+.pg {
+    display: flex;
+}
+.heroText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heroText p{
+
+    font-weight: normal;
+}
+.form{
+    padding: 20px;
+    width: 100%;
+}
