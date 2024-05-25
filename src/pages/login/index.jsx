@@ -4,7 +4,8 @@ import image from "../../login.png"
 const LoginPage = () => {
     return(
         <>
-            <PageTemplate image={image} header={"Welcome Back"} smallHeader={"Log in to your Dashboard"} buttonText={"Login"} placeHolder1={"username"} placeHolder2={"password"}/>
+            <PageTemplate image={image} header={"Welcome Back"} smallHeader={"Log in to your Dashboard"} buttonText={"Login"}
+                          placeHolder1={"username"} placeHolder2={"password"} isLogin={true} url={"http://localhost:8080/api/v1/login-user"}/>
 
         </>
     )
