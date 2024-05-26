@@ -1,20 +1,20 @@
-.pg img{
+.login img{
     width: 50%;
 }
-.pg {
+.login {
     display: flex;
 }
-.heroText{
+.loginHeroText{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.heroText p{
+.loginHeroText p{
 
     font-weight: normal;
 }
-.form{
+.loginForm{
     padding: 20px;
     width: 100%;
     margin-bottom: 10px;
@@ -23,6 +23,9 @@
     border-radius: 10px;
     height: 50px;
 }
-.form input{
+.loginForm input{
     margin-bottom: 20px;
+}
+.btn{
+
 }

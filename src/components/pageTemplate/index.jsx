@@ -1,7 +1,5 @@
 import style from "./index.module.css"
 import FilledButton from "../filledButton";
-import InputField from "../inputField";
-import TextField from "../textField";
 import {Field, Form, Formik} from "formik";
 import React,{useState} from "react";
 import axios from 'axios';
@@ -124,10 +122,10 @@ const PageTemplate =({image, header, smallHeader, placeHolder1, isLogin,
                                         onBlur={handleBlur}
                                     />}
                                 <div>
-
+                                    <p> </p>
                                 </div>
                                 <div className={style.btn}>
-                                    <button type="submit" className={style.btn}>
+                                    <FilledButton type="submit" className={style.btn}>
                                         {isLoading ? (
                                             <div className="flex items-center justify-center">
                                                 <Icon width={24} height={24} icon={loadingLoop}/>
@@ -135,7 +133,7 @@ const PageTemplate =({image, header, smallHeader, placeHolder1, isLogin,
                                         ) : (
                                             isLogin ? 'Login' : 'Sign Up'
                                         )}
-                                    </button>
+                                    </FilledButton>
                                 </div>
                             </Form>
                         )}

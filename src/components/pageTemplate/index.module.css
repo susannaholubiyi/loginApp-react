@@ -25,4 +25,10 @@
 }
 .form input{
     margin-bottom: 20px;
+    width: 94%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: medium;
+    border: 1px solid grey;
 }
+

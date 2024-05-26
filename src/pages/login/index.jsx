@@ -1,7 +1,7 @@
 import PageTemplate from "../../components/pageTemplate";
 import image from "../../login.png"
 
-const LoginPage = () => {
+const loginPage1 = () => {
     return(
         <>
             <PageTemplate image={image} header={"Welcome Back"} smallHeader={"Log in to your Dashboard"} buttonText={"Login"}
@@ -10,4 +10,4 @@ const LoginPage = () => {
         </>
     )
 }
-export default LoginPage;
+export default loginPage1;
