@@ -125,7 +125,7 @@ const PageTemplate =({image, header, smallHeader, placeHolder1, isLogin,
                                     <p> </p>
                                 </div>
                                 <div className={style.btn}>
-                                    <FilledButton type="submit" className={style.btn}>
+                                    <FilledButton text="Sign up" type="submit" className={style.btn}>
                                         {isLoading ? (
                                             <div className="flex items-center justify-center">
                                                 <Icon width={24} height={24} icon={loadingLoop}/>

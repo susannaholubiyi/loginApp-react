@@ -2,12 +2,12 @@ import style from './index.module.css'
 import React, {useState} from "react";
 import * as Yup from 'yup';
 import axios from "axios";
-import {toast} from "react-toastify";
+import {toast, ToastContainer} from "react-toastify";
 import {Field, Form, Formik} from "formik";
 import {Icon} from "@iconify/react";
 import loadingLoop from "@iconify/icons-line-md/loading-loop";
 import FilledButton from "../filledButton";
-import image from "../../login.png"
+import image from '../../login.png';
 
 const Login = ()=>{
     const [isLoading, setIsLoading] = useState(false);
@@ -108,6 +108,7 @@ const Login = ()=>{
                     </Formik>
                 </div>
             </div>
+            <ToastContainer/>
         </>
     )
 }

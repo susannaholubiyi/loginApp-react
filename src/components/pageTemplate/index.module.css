@@ -1,5 +1,6 @@
 .pg img{
-    width: 50%;
+    width: 40vw;
+    height: 100vh;
 }
 .pg {
     display: flex;

@@ -1,5 +1,7 @@
 .login img{
-    width: 50%;
+    width: 40vw;
+    height: 100vh;
+
 }
 .login {
     display: flex;
@@ -25,6 +27,11 @@
 }
 .loginForm input{
     margin-bottom: 20px;
+    width: 94%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: medium;
+    border: 1px solid grey;
 }
 .btn{
 
